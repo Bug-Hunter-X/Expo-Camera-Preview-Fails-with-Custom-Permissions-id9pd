@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with custom permissions.  The camera preview might not render correctly or might not start at all, even if permissions are granted. This often happens when combining custom permission handling with other Expo modules or native code.  The issue may manifest inconsistently across different devices and Android versions.
